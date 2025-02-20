@@ -1,0 +1,2 @@
+docker build -t button_service
+docker run -p 5000:5000 -e DATABASE_URL=/app/buttons.db button_service
